@@ -8,7 +8,7 @@ def get_name(name_length):
 def get_contact_number():
   mobile_operator_list = ['015', '016', '017', '018', '019']
   operator_prefix = random.choice(mobile_operator_list)
-  other_digits = random.randint(11111111,99999999)
+  other_digits = random.randint(10000000,99999999)
   return operator_prefix + str(other_digits)
 
 def get_age():
